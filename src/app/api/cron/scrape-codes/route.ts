@@ -1,11 +1,14 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createAdminClient } from "@/lib/supabase/admin";
+import { verifyCronAuth } from "@/lib/utils/cron-auth";
 import { GenshinScraper } from "@/lib/scrapers/genshin";
 import { HonkaiScraper } from "@/lib/scrapers/honkai";
 import { FreeFireScraper } from "@/lib/scrapers/freefire";
 import { RobloxScraper } from "@/lib/scrapers/roblox";
 import { PubgMobileScraper } from "@/lib/scrapers/pubg";
 import { BaseScraper } from "@/lib/scrapers/base";
+
+export const maxDuration = 60; // Allow up to 60s for scraping all games
 
 interface ScraperConfig {
   slug: string;
@@ -22,8 +25,7 @@ const scraperConfigs: ScraperConfig[] = [
 ];
 
 export async function GET(request: NextRequest) {
-  const authHeader = request.headers.get("authorization");
-  if (authHeader !== `Bearer ${process.env.CRON_SECRET}`) {
+  if (!verifyCronAuth(request)) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 

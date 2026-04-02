@@ -1,12 +1,12 @@
 import { NextRequest, NextResponse } from "next/server";
+import { verifyCronAuth } from "@/lib/utils/cron-auth";
 
 export async function GET(request: NextRequest) {
-  const authHeader = request.headers.get("authorization");
-  if (authHeader !== `Bearer ${process.env.CRON_SECRET}`) {
+  if (!verifyCronAuth(request)) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  // Placeholder for server status checking
+  // Server status checking placeholder
   // In production, this would ping game servers or check official status pages
   return NextResponse.json({
     message: "Status check completed",

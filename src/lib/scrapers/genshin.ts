@@ -3,7 +3,13 @@ import { HOYO_CODES_API } from "@/lib/constants";
 
 interface HoyoCode {
   code: string;
-  rewards: string[];
+  rewards: string;
+  status: string;
+}
+
+interface HoyoResponse {
+  codes: HoyoCode[];
+  game: string;
 }
 
 export class GenshinScraper extends BaseScraper {
@@ -12,17 +18,20 @@ export class GenshinScraper extends BaseScraper {
       const response = await this.fetchWithRetry(
         `${HOYO_CODES_API}/codes?game=genshin`
       );
-      const data = await response.json();
+      const data: HoyoResponse = await response.json();
 
-      if (!Array.isArray(data)) return [];
+      const codes = data.codes || (Array.isArray(data) ? data : []);
+      if (!Array.isArray(codes)) return [];
 
-      return data.map((item: HoyoCode) => ({
-        code: item.code,
-        rewards: Array.isArray(item.rewards) ? item.rewards.join(" + ") : String(item.rewards || ""),
-        source: "hoyo_codes_api",
-        source_url: `${HOYO_CODES_API}/codes?game=genshin`,
-        region: "global",
-      }));
+      return codes
+        .filter((item) => item.status === "OK")
+        .map((item) => ({
+          code: item.code,
+          rewards: item.rewards || "Genshin Impact Rewards",
+          source: "hoyo_codes_api",
+          source_url: `${HOYO_CODES_API}/codes?game=genshin`,
+          region: "global",
+        }));
     } catch (error) {
       console.error("Genshin scraper error:", error);
       return [];

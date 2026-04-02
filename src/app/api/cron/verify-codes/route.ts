@@ -1,9 +1,11 @@
 import { NextRequest, NextResponse } from "next/server";
+import { verifyCronAuth } from "@/lib/utils/cron-auth";
 import { VerificationEngine } from "@/lib/verification/engine";
 
+export const maxDuration = 60; // Allow up to 60s for verification
+
 export async function GET(request: NextRequest) {
-  const authHeader = request.headers.get("authorization");
-  if (authHeader !== `Bearer ${process.env.CRON_SECRET}`) {
+  if (!verifyCronAuth(request)) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 

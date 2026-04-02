@@ -18,12 +18,12 @@ export class HoyoVerifier {
       if (!response.ok) return null;
 
       const data = await response.json();
-
-      if (!Array.isArray(data)) return null;
+      const codes: { code: string; status: string; rewards: string }[] =
+        data.codes || (Array.isArray(data) ? data : []);
 
       // Check if the code exists in the active codes list
-      const found = data.find(
-        (c: { code: string }) => c.code.toUpperCase() === code.toUpperCase()
+      const found = codes.find(
+        (c) => c.code.toUpperCase() === code.toUpperCase() && c.status === "OK"
       );
 
       if (found) {
