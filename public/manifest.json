@@ -1,0 +1,16 @@
+{
+  "name": "GameCodeHub",
+  "short_name": "GCH",
+  "description": "Daily Game Codes, Server Status & More",
+  "start_url": "/en",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}

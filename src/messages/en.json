@@ -1,0 +1,123 @@
+{
+  "common": {
+    "siteName": "GameCodeHub",
+    "tagline": "Daily Game Codes, Server Status & More",
+    "home": "Home",
+    "allGames": "All Games",
+    "codes": "Redeem Codes",
+    "serverStatus": "Server Status",
+    "banners": "Current Banners",
+    "blog": "Guides",
+    "about": "About",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "searchPlaceholder": "Search codes...",
+    "lastUpdated": "Last updated",
+    "copyCode": "Copy Code",
+    "copied": "Copied!",
+    "active": "Active",
+    "expired": "Expired",
+    "verified": "Verified",
+    "newCode": "NEW",
+    "expiresIn": "Expires in",
+    "noActiveCodes": "No active codes right now. Check back soon!",
+    "showExpired": "Show Expired Codes",
+    "hideExpired": "Hide Expired Codes",
+    "viewAll": "View All",
+    "learnMore": "Learn More",
+    "backToHome": "Back to Home",
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Try Again"
+  },
+  "home": {
+    "heroTitle": "Never Miss a Game Code Again",
+    "heroSubtitle": "Get the latest working redeem codes for your favorite games. Updated every hour.",
+    "latestCodes": "Latest Codes",
+    "activeCodesCount": "{count} active codes",
+    "gamesWeTrack": "Games We Track"
+  },
+  "game": {
+    "activeCodes": "Active Codes",
+    "expiredCodes": "Expired Codes",
+    "howToRedeem": "How to Redeem",
+    "redeemOnOfficialSite": "Redeem on Official Site",
+    "faq": "Frequently Asked Questions",
+    "serverOnline": "Servers are online",
+    "relatedGames": "Other Games",
+    "codesFor": "Codes for {game}",
+    "allCodes": "All {game} Codes",
+    "noExpiredCodes": "No expired codes recorded yet."
+  },
+  "codes": {
+    "pageTitle": "{game} Redeem Codes ({month} {year})",
+    "pageSubtitle": "All working {game} redeem codes. Copy codes instantly and claim free rewards.",
+    "rewards": "Rewards",
+    "source": "Source",
+    "added": "Added",
+    "region": "Region",
+    "global": "Global",
+    "copyAndRedeem": "Copy & Redeem",
+    "codeExpired": "This code has expired",
+    "hoursAgo": "{hours}h ago",
+    "daysAgo": "{days}d ago",
+    "justNow": "Just now"
+  },
+  "status": {
+    "online": "Online",
+    "maintenance": "Maintenance",
+    "issues": "Issues Detected",
+    "offline": "Offline",
+    "scheduledMaintenance": "Scheduled Maintenance",
+    "maintenanceEnds": "Expected to end",
+    "pageTitle": "{game} Server Status",
+    "pageSubtitle": "Check if {game} servers are online right now.",
+    "currentStatus": "Current Status",
+    "statusHistory": "Status History (Last 7 Days)",
+    "noIssues": "No issues reported in the last 7 days."
+  },
+  "banners": {
+    "pageTitle": "Current {game} Banners",
+    "pageSubtitle": "See what's available in the current rotation.",
+    "endsIn": "Ends in",
+    "featuredItems": "Featured Items",
+    "noBanners": "No active banners right now."
+  },
+  "newsletter": {
+    "title": "Get Daily Codes in Your Inbox",
+    "subtitle": "Never miss a code. We'll send you new codes as they drop.",
+    "placeholder": "your@email.com",
+    "subscribe": "Subscribe",
+    "success": "You're in! Check your email to confirm.",
+    "selectGames": "Select your games"
+  },
+  "seo": {
+    "homeTitle": "GameCodeHub - Daily Redeem Codes for Genshin Impact, Free Fire, Roblox & More",
+    "homeDescription": "Get the latest working redeem codes for Genshin Impact, Free Fire, Roblox, PUBG Mobile & more. Updated daily. Copy & redeem instantly.",
+    "codesTitle": "{game} Redeem Codes ({month} {year}) - All Active Codes",
+    "codesDescription": "All working {game} redeem codes for {month} {year}. Copy codes instantly and claim free rewards. Updated every hour.",
+    "statusTitle": "{game} Server Status - Is {game} Down?",
+    "statusDescription": "Check if {game} servers are online right now. Live server status, maintenance schedule, and downtime history.",
+    "bannersTitle": "{game} Current Banners & Events",
+    "bannersDescription": "See the current banners, events, and shop rotation for {game}. Find out what's available now."
+  },
+  "admin": {
+    "dashboard": "Dashboard",
+    "manageCodes": "Manage Codes",
+    "manageGames": "Manage Games",
+    "settings": "Settings",
+    "addCode": "Add Code",
+    "editCode": "Edit Code",
+    "deleteCode": "Delete Code",
+    "save": "Save",
+    "cancel": "Cancel",
+    "login": "Login",
+    "logout": "Logout",
+    "password": "Password",
+    "loginError": "Invalid password"
+  },
+  "footer": {
+    "disclaimer": "GameCodeHub is an independent fan site and is not affiliated with, endorsed by, or in any way associated with HoYoverse, Garena, Roblox Corporation, Krafton, or any game publisher. All game names, logos, and trademarks are property of their respective owners. Codes are sourced from publicly available information and may expire without notice.",
+    "copyright": "© {year} GameCodeHub. All rights reserved."
+  }
+}

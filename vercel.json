@@ -1,0 +1,16 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/scrape-codes",
+      "schedule": "0 */2 * * *"
+    },
+    {
+      "path": "/api/cron/check-expired",
+      "schedule": "0 */6 * * *"
+    },
+    {
+      "path": "/api/cron/check-status",
+      "schedule": "*/15 * * * *"
+    }
+  ]
+}
