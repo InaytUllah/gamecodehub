@@ -1,6 +1,8 @@
 import { Badge } from "../ui/Badge";
 import { CopyButton } from "../ui/CopyButton";
 import { Countdown } from "../ui/Countdown";
+import { VerificationBadge } from "./VerificationBadge";
+import { CommunityReport } from "./CommunityReport";
 import { formatRelativeTime } from "@/lib/utils/date";
 import type { Code } from "@/types/database";
 
@@ -18,7 +20,11 @@ export function CodeCard({ code, gameSlug }: CodeCardProps) {
         <Badge variant={code.is_active ? "success" : "danger"}>
           {code.is_active ? "ACTIVE" : "EXPIRED"}
         </Badge>
-        {code.is_verified && <Badge variant="info">Verified</Badge>}
+        <VerificationBadge
+          lastVerifiedAt={code.last_verified_at || null}
+          failCount={code.fail_count || 0}
+          method={code.verification_method}
+        />
         {isNew && code.is_active && <Badge variant="new">NEW</Badge>}
         {code.region !== "global" && (
           <Badge variant="default">{code.region.toUpperCase()}</Badge>
@@ -39,14 +45,37 @@ export function CodeCard({ code, gameSlug }: CodeCardProps) {
       )}
 
       <div className="mt-3 flex flex-wrap items-center gap-4 text-xs text-gray-400">
-        {code.expires_at && (
-          <Countdown expiresAt={code.expires_at} />
-        )}
+        {code.expires_at && <Countdown expiresAt={code.expires_at} />}
         <span>Added {formatRelativeTime(code.discovered_at)}</span>
-        {code.source && (
-          <span className="capitalize">{code.source.replace("_", " ")}</span>
+        {code.verification_method && (
+          <span>
+            Checked via: {formatMethod(code.verification_method)}
+          </span>
         )}
       </div>
+
+      {code.is_active && (
+        <div className="mt-3 border-t border-gray-100 pt-3 dark:border-gray-700">
+          <CommunityReport
+            codeId={code.id}
+            reportedWorking={code.reported_working || 0}
+            reportedExpired={code.reported_expired || 0}
+          />
+        </div>
+      )}
     </div>
   );
+}
+
+// Code interface already has verification fields
+
+function formatMethod(method?: string | null): string {
+  const labels: Record<string, string> = {
+    api_status: "API Check",
+    api_redeem: "API Redemption",
+    scraper_cross_check: "Cross-Check",
+    community_report: "Community",
+    manual_test: "Manual Test",
+  };
+  return labels[method || ""] || method || "";
 }

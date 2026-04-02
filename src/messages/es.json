@@ -119,5 +119,21 @@
   "footer": {
     "disclaimer": "GameCodeHub es un sitio independiente de fans y no esta afiliado, respaldado ni asociado de ninguna manera con HoYoverse, Garena, Roblox Corporation, Krafton o cualquier editor de juegos. Todos los nombres de juegos, logos y marcas registradas son propiedad de sus respectivos duenos. Los codigos se obtienen de informacion disponible publicamente y pueden expirar sin previo aviso.",
     "copyright": "© {year} GameCodeHub. Todos los derechos reservados."
+  },
+  "verification": {
+    "verifiedAgo": "Verificado hace {time}",
+    "lastCheckedAgo": "Ultima comprobacion hace {time}",
+    "unverified": "No verificado",
+    "likelyExpired": "Probablemente expirado",
+    "nextCheckIn": "Proxima verificacion en: {time}",
+    "allCodesVerified": "Todos los codigos verificados por ultima vez: hace {time}",
+    "poweredBy": "Con verificacion en tiempo real",
+    "checkedVia": "Verificado via: {method}",
+    "didThisWork": "¿Este codigo funciono?",
+    "yes": "Si",
+    "no": "No",
+    "thankYou": "¡Gracias por reportar!",
+    "minutesAgo": "hace {count}m",
+    "hoursAgo": "hace {count}h"
   }
 }

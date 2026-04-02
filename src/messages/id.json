@@ -119,5 +119,21 @@
   "footer": {
     "disclaimer": "GameCodeHub adalah situs penggemar independen dan tidak berafiliasi, didukung, atau terkait dengan HoYoverse, Garena, Roblox Corporation, Krafton, atau penerbit game manapun. Semua nama game, logo, dan merek dagang adalah milik pemiliknya masing-masing. Kode bersumber dari informasi yang tersedia secara publik dan dapat kedaluwarsa tanpa pemberitahuan.",
     "copyright": "© {year} GameCodeHub. Hak cipta dilindungi."
+  },
+  "verification": {
+    "verifiedAgo": "Diverifikasi {time} yang lalu",
+    "lastCheckedAgo": "Terakhir diperiksa {time} yang lalu",
+    "unverified": "Belum diverifikasi",
+    "likelyExpired": "Kemungkinan kedaluwarsa",
+    "nextCheckIn": "Pemeriksaan berikutnya dalam: {time}",
+    "allCodesVerified": "Semua kode terakhir diverifikasi: {time} yang lalu",
+    "poweredBy": "Didukung oleh verifikasi waktu nyata",
+    "checkedVia": "Diperiksa melalui: {method}",
+    "didThisWork": "Apakah kode ini berhasil?",
+    "yes": "Ya",
+    "no": "Tidak",
+    "thankYou": "Terima kasih atas laporannya!",
+    "minutesAgo": "{count}m yang lalu",
+    "hoursAgo": "{count}j yang lalu"
   }
 }

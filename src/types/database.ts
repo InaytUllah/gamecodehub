@@ -35,6 +35,25 @@ export interface Code {
   expires_at: string | null;
   created_at: string;
   updated_at: string;
+  // Verification fields
+  verification_method: string | null;
+  last_verified_at: string | null;
+  verification_count: number;
+  last_failed_at: string | null;
+  fail_count: number;
+  reported_working: number;
+  reported_expired: number;
+}
+
+export interface CodeVerification {
+  id: string;
+  code_id: string;
+  verified_at: string;
+  method: string;
+  result: string;
+  source: string | null;
+  response_data: Record<string, unknown> | null;
+  ip_hash: string | null;
 }
 
 export interface CodeTranslation {

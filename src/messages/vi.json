@@ -119,5 +119,21 @@
   "footer": {
     "disclaimer": "GameCodeHub la trang web nguoi ham mo doc lap va khong lien ket, khong duoc chung thuc hoac lien quan den HoYoverse, Garena, Roblox Corporation, Krafton hoac bat ky nha phat hanh game nao. Tat ca ten game, logo va nhan hieu la tai san cua chu so huu tuong ung. Ma duoc lay tu thong tin cong khai va co the het han ma khong bao truoc.",
     "copyright": "© {year} GameCodeHub. Moi quyen duoc bao luu."
+  },
+  "verification": {
+    "verifiedAgo": "Da xac minh {time} truoc",
+    "lastCheckedAgo": "Kiem tra lan cuoi {time} truoc",
+    "unverified": "Chua xac minh",
+    "likelyExpired": "Co the da het han",
+    "nextCheckIn": "Lan kiem tra tiep theo: {time}",
+    "allCodesVerified": "Tat ca ma da xac minh lan cuoi: {time} truoc",
+    "poweredBy": "Duoc ho tro boi xac minh thoi gian thuc",
+    "checkedVia": "Kiem tra qua: {method}",
+    "didThisWork": "Ma nay co hoat dong khong?",
+    "yes": "Co",
+    "no": "Khong",
+    "thankYou": "Cam on ban da bao cao!",
+    "minutesAgo": "{count} phut truoc",
+    "hoursAgo": "{count} gio truoc"
   }
 }

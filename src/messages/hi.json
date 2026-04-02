@@ -119,5 +119,21 @@
   "footer": {
     "disclaimer": "GameCodeHub एक स्वतंत्र प्रशंसक साइट है और HoYoverse, Garena, Roblox Corporation, Krafton या किसी भी गेम प्रकाशक से संबद्ध, समर्थित या किसी भी तरह से जुड़ी नहीं है। सभी गेम नाम, लोगो और ट्रेडमार्क उनके संबंधित मालिकों की संपत्ति हैं। कोड सार्वजनिक रूप से उपलब्ध जानकारी से प्राप्त किए जाते हैं और बिना सूचना के समाप्त हो सकते हैं।",
     "copyright": "© {year} GameCodeHub. सर्वाधिकार सुरक्षित।"
+  },
+  "verification": {
+    "verifiedAgo": "{time} पहले सत्यापित",
+    "lastCheckedAgo": "अंतिम जांच {time} पहले",
+    "unverified": "असत्यापित",
+    "likelyExpired": "संभवतः समाप्त",
+    "nextCheckIn": "अगली जांच: {time} में",
+    "allCodesVerified": "सभी कोड अंतिम बार सत्यापित: {time} पहले",
+    "poweredBy": "रियल-टाइम सत्यापन द्वारा संचालित",
+    "checkedVia": "जांच का माध्यम: {method}",
+    "didThisWork": "क्या यह कोड काम किया?",
+    "yes": "हाँ",
+    "no": "नहीं",
+    "thankYou": "रिपोर्ट करने के लिए धन्यवाद!",
+    "minutesAgo": "{count} मिनट पहले",
+    "hoursAgo": "{count} घंटे पहले"
   }
 }

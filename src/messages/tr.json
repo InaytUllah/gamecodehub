@@ -119,5 +119,21 @@
   "footer": {
     "disclaimer": "GameCodeHub bagimsiz bir hayran sitesidir ve HoYoverse, Garena, Roblox Corporation, Krafton veya herhangi bir oyun yayincisi ile bagli, onaylanmis veya herhangi bir sekilde iliskili degildir. Tum oyun adlari, logolari ve ticari markalar ilgili sahiplerinin mulkiyetindedir. Kodlar kamuya acik bilgilerden elde edilmistir ve onceden haber verilmeksizin sona erebilir.",
     "copyright": "© {year} GameCodeHub. Tum haklari saklidir."
+  },
+  "verification": {
+    "verifiedAgo": "{time} once dogrulandi",
+    "lastCheckedAgo": "Son kontrol {time} once",
+    "unverified": "Dogrulanmamis",
+    "likelyExpired": "Muhtemelen suresi dolmus",
+    "nextCheckIn": "Sonraki kontrol: {time}",
+    "allCodesVerified": "Tum kodlar son dogrulanma: {time} once",
+    "poweredBy": "Gercek zamanli dogrulama ile desteklenmektedir",
+    "checkedVia": "Kontrol yontemi: {method}",
+    "didThisWork": "Bu kod calisti mi?",
+    "yes": "Evet",
+    "no": "Hayir",
+    "thankYou": "Bildirdiginiz icin tesekkurler!",
+    "minutesAgo": "{count}dk once",
+    "hoursAgo": "{count}sa once"
   }
 }

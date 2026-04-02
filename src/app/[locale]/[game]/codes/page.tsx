@@ -2,6 +2,7 @@ import { getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { CodeList } from "@/components/codes/CodeList";
 import { ExpiredCodes } from "@/components/codes/ExpiredCodes";
+import { LastCheckedBar } from "@/components/codes/LastCheckedBar";
 import { GameNav } from "@/components/games/GameNav";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { JsonLd } from "@/components/seo/JsonLd";
@@ -136,6 +137,18 @@ export default async function CodesPage({ params }: { params: Promise<{ locale: 
       </div>
 
       <div className="mt-8">
+        <LastCheckedBar
+          oldestVerifiedAt={
+            activeCodes.length > 0
+              ? activeCodes.reduce((oldest, c) => {
+                  const v = (c as { last_verified_at?: string | null }).last_verified_at;
+                  if (!v) return oldest;
+                  if (!oldest || v < oldest) return v;
+                  return oldest;
+                }, null as string | null)
+              : null
+          }
+        />
         <h2 className="mb-4 text-xl font-bold text-gray-900 dark:text-white">
           {t("game.activeCodes")}
         </h2>
