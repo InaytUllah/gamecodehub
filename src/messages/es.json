@@ -1,0 +1,123 @@
+{
+  "common": {
+    "siteName": "GameCodeHub",
+    "tagline": "Codigos de Juegos Diarios, Estado del Servidor y Mas",
+    "home": "Inicio",
+    "allGames": "Todos los Juegos",
+    "codes": "Codigos de Canje",
+    "serverStatus": "Estado del Servidor",
+    "banners": "Banners Actuales",
+    "blog": "Guias",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "privacy": "Politica de Privacidad",
+    "searchPlaceholder": "Buscar codigos...",
+    "lastUpdated": "Ultima actualizacion",
+    "copyCode": "Copiar Codigo",
+    "copied": "Copiado!",
+    "active": "Activo",
+    "expired": "Expirado",
+    "verified": "Verificado",
+    "newCode": "NUEVO",
+    "expiresIn": "Expira en",
+    "noActiveCodes": "No hay codigos activos en este momento. Vuelve pronto!",
+    "showExpired": "Mostrar Codigos Expirados",
+    "hideExpired": "Ocultar Codigos Expirados",
+    "viewAll": "Ver Todos",
+    "learnMore": "Saber Mas",
+    "backToHome": "Volver al Inicio",
+    "loading": "Cargando...",
+    "error": "Algo salio mal",
+    "retry": "Intentar de Nuevo"
+  },
+  "home": {
+    "heroTitle": "Nunca Pierdas un Codigo de Juego",
+    "heroSubtitle": "Obtiene los codigos de canje mas recientes para tus juegos favoritos. Actualizado cada hora.",
+    "latestCodes": "Codigos Recientes",
+    "activeCodesCount": "{count} codigos activos",
+    "gamesWeTrack": "Juegos que Seguimos"
+  },
+  "game": {
+    "activeCodes": "Codigos Activos",
+    "expiredCodes": "Codigos Expirados",
+    "howToRedeem": "Como Canjear",
+    "redeemOnOfficialSite": "Canjear en el Sitio Oficial",
+    "faq": "Preguntas Frecuentes",
+    "serverOnline": "Los servidores estan en linea",
+    "relatedGames": "Otros Juegos",
+    "codesFor": "Codigos para {game}",
+    "allCodes": "Todos los Codigos de {game}",
+    "noExpiredCodes": "No hay codigos expirados registrados aun."
+  },
+  "codes": {
+    "pageTitle": "Codigos de Canje {game} ({month} {year})",
+    "pageSubtitle": "Todos los codigos de canje {game} funcionando. Copia y canjea recompensas gratis.",
+    "rewards": "Recompensas",
+    "source": "Fuente",
+    "added": "Agregado",
+    "region": "Region",
+    "global": "Global",
+    "copyAndRedeem": "Copiar y Canjear",
+    "codeExpired": "Este codigo ha expirado",
+    "hoursAgo": "hace {hours}h",
+    "daysAgo": "hace {days}d",
+    "justNow": "Justo ahora"
+  },
+  "status": {
+    "online": "En linea",
+    "maintenance": "Mantenimiento",
+    "issues": "Problemas Detectados",
+    "offline": "Fuera de linea",
+    "scheduledMaintenance": "Mantenimiento Programado",
+    "maintenanceEnds": "Se espera que termine",
+    "pageTitle": "Estado del Servidor {game}",
+    "pageSubtitle": "Verifica si los servidores de {game} estan en linea ahora.",
+    "currentStatus": "Estado Actual",
+    "statusHistory": "Historial de Estado (Ultimos 7 Dias)",
+    "noIssues": "No se reportaron problemas en los ultimos 7 dias."
+  },
+  "banners": {
+    "pageTitle": "Banners Actuales de {game}",
+    "pageSubtitle": "Mira lo que esta disponible en la rotacion actual.",
+    "endsIn": "Termina en",
+    "featuredItems": "Items Destacados",
+    "noBanners": "No hay banners activos en este momento."
+  },
+  "newsletter": {
+    "title": "Recibe Codigos Diarios en tu Correo",
+    "subtitle": "Nunca pierdas un codigo. Te enviaremos nuevos codigos apenas salgan.",
+    "placeholder": "tu@email.com",
+    "subscribe": "Suscribirse",
+    "success": "Estas dentro! Revisa tu correo para confirmar.",
+    "selectGames": "Selecciona tus juegos"
+  },
+  "seo": {
+    "homeTitle": "GameCodeHub - Codigos de Canje Diarios para Genshin Impact, Free Fire, Roblox y Mas",
+    "homeDescription": "Obtiene los codigos de canje mas recientes para Genshin Impact, Free Fire, Roblox, PUBG Mobile y mas. Actualizado diariamente.",
+    "codesTitle": "Codigos de Canje {game} ({month} {year}) - Todos los Codigos Activos",
+    "codesDescription": "Todos los codigos de canje {game} funcionando para {month} {year}. Copia y canjea recompensas gratis.",
+    "statusTitle": "Estado del Servidor {game} - Esta {game} caido?",
+    "statusDescription": "Verifica si los servidores de {game} estan en linea ahora. Estado en vivo e historial de mantenimiento.",
+    "bannersTitle": "Banners y Eventos Actuales de {game}",
+    "bannersDescription": "Mira los banners, eventos y rotacion de tienda actuales de {game}."
+  },
+  "admin": {
+    "dashboard": "Panel",
+    "manageCodes": "Gestionar Codigos",
+    "manageGames": "Gestionar Juegos",
+    "settings": "Configuracion",
+    "addCode": "Agregar Codigo",
+    "editCode": "Editar Codigo",
+    "deleteCode": "Eliminar Codigo",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "login": "Iniciar Sesion",
+    "logout": "Cerrar Sesion",
+    "password": "Contrasena",
+    "loginError": "Contrasena invalida"
+  },
+  "footer": {
+    "disclaimer": "GameCodeHub es un sitio independiente de fans y no esta afiliado, respaldado ni asociado de ninguna manera con HoYoverse, Garena, Roblox Corporation, Krafton o cualquier editor de juegos. Todos los nombres de juegos, logos y marcas registradas son propiedad de sus respectivos duenos. Los codigos se obtienen de informacion disponible publicamente y pueden expirar sin previo aviso.",
+    "copyright": "© {year} GameCodeHub. Todos los derechos reservados."
+  }
+}

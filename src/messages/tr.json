@@ -1,0 +1,123 @@
+{
+  "common": {
+    "siteName": "GameCodeHub",
+    "tagline": "Gunluk Oyun Kodlari, Sunucu Durumu ve Daha Fazlasi",
+    "home": "Ana Sayfa",
+    "allGames": "Tum Oyunlar",
+    "codes": "Kodlar",
+    "serverStatus": "Sunucu Durumu",
+    "banners": "Mevcut Bannerlar",
+    "blog": "Rehberler",
+    "about": "Hakkinda",
+    "contact": "Iletisim",
+    "privacy": "Gizlilik Politikasi",
+    "searchPlaceholder": "Kod ara...",
+    "lastUpdated": "Son guncelleme",
+    "copyCode": "Kodu Kopyala",
+    "copied": "Kopyalandi!",
+    "active": "Aktif",
+    "expired": "Suresi Dolmus",
+    "verified": "Dogrulanmis",
+    "newCode": "YENI",
+    "expiresIn": "Bitis suresi",
+    "noActiveCodes": "Su anda aktif kod yok. Yakinda tekrar kontrol edin!",
+    "showExpired": "Suresi Dolmus Kodlari Goster",
+    "hideExpired": "Suresi Dolmus Kodlari Gizle",
+    "viewAll": "Tumunu Gor",
+    "learnMore": "Daha Fazla",
+    "backToHome": "Ana Sayfaya Don",
+    "loading": "Yukleniyor...",
+    "error": "Bir hata olustu",
+    "retry": "Tekrar Dene"
+  },
+  "home": {
+    "heroTitle": "Bir Daha Oyun Kodu Kacirmayin",
+    "heroSubtitle": "Favori oyunlariniz icin en son kodlari alin. Her saat guncellenir.",
+    "latestCodes": "Son Kodlar",
+    "activeCodesCount": "{count} aktif kod",
+    "gamesWeTrack": "Takip Ettigimiz Oyunlar"
+  },
+  "game": {
+    "activeCodes": "Aktif Kodlar",
+    "expiredCodes": "Suresi Dolmus Kodlar",
+    "howToRedeem": "Nasil Kullanilir",
+    "redeemOnOfficialSite": "Resmi Sitede Kullan",
+    "faq": "Sikca Sorulan Sorular",
+    "serverOnline": "Sunucular cevrimici",
+    "relatedGames": "Diger Oyunlar",
+    "codesFor": "{game} Kodlari",
+    "allCodes": "Tum {game} Kodlari",
+    "noExpiredCodes": "Henuz suresi dolmus kod kaydedilmedi."
+  },
+  "codes": {
+    "pageTitle": "{game} Kodlari ({month} {year})",
+    "pageSubtitle": "Calisan tum {game} kodlari. Kopyala ve ucretsiz odulleri al.",
+    "rewards": "Oduller",
+    "source": "Kaynak",
+    "added": "Eklendi",
+    "region": "Bolge",
+    "global": "Global",
+    "copyAndRedeem": "Kopyala ve Kullan",
+    "codeExpired": "Bu kodun suresi dolmus",
+    "hoursAgo": "{hours}s once",
+    "daysAgo": "{days}g once",
+    "justNow": "Az once"
+  },
+  "status": {
+    "online": "Cevrimici",
+    "maintenance": "Bakim",
+    "issues": "Sorun Tespit Edildi",
+    "offline": "Cevrimdisi",
+    "scheduledMaintenance": "Planli Bakim",
+    "maintenanceEnds": "Bitmesi beklenen",
+    "pageTitle": "{game} Sunucu Durumu",
+    "pageSubtitle": "{game} sunuculari simdi cevrimici mi kontrol edin.",
+    "currentStatus": "Mevcut Durum",
+    "statusHistory": "Durum Gecmisi (Son 7 Gun)",
+    "noIssues": "Son 7 gunde bildirilen sorun yok."
+  },
+  "banners": {
+    "pageTitle": "Mevcut {game} Bannerlari",
+    "pageSubtitle": "Mevcut rotasyonda nelerin mevcut oldugunu gorun.",
+    "endsIn": "Bitis",
+    "featuredItems": "One Cikan Ogeler",
+    "noBanners": "Su anda aktif banner yok."
+  },
+  "newsletter": {
+    "title": "Gunluk Kodlari E-postaniza Alin",
+    "subtitle": "Hicbir kodu kacirmayin. Yeni kodlari aninda gonderecegiz.",
+    "placeholder": "email@adresiniz.com",
+    "subscribe": "Abone Ol",
+    "success": "Kaydoldunuz! Onaylamak icin e-postanizi kontrol edin.",
+    "selectGames": "Oyunlarinizi secin"
+  },
+  "seo": {
+    "homeTitle": "GameCodeHub - Genshin Impact, Free Fire, Roblox ve Daha Fazlasi icin Gunluk Kodlar",
+    "homeDescription": "Genshin Impact, Free Fire, Roblox, PUBG Mobile ve daha fazlasi icin en son kodlari alin. Her gun guncellenir.",
+    "codesTitle": "{game} Kodlari ({month} {year}) - Tum Aktif Kodlar",
+    "codesDescription": "{month} {year} icin calisan tum {game} kodlari. Kopyala ve ucretsiz odulleri al.",
+    "statusTitle": "{game} Sunucu Durumu - {game} Kapali mi?",
+    "statusDescription": "{game} sunuculari simdi cevrimici mi kontrol edin. Canli durum ve bakim gecmisi.",
+    "bannersTitle": "{game} Mevcut Bannerlar ve Etkinlikler",
+    "bannersDescription": "{game} mevcut bannerlari, etkinlikleri ve magaza rotasyonunu gorun."
+  },
+  "admin": {
+    "dashboard": "Panel",
+    "manageCodes": "Kodlari Yonet",
+    "manageGames": "Oyunlari Yonet",
+    "settings": "Ayarlar",
+    "addCode": "Kod Ekle",
+    "editCode": "Kodu Duzenle",
+    "deleteCode": "Kodu Sil",
+    "save": "Kaydet",
+    "cancel": "Iptal",
+    "login": "Giris Yap",
+    "logout": "Cikis Yap",
+    "password": "Sifre",
+    "loginError": "Gecersiz sifre"
+  },
+  "footer": {
+    "disclaimer": "GameCodeHub bagimsiz bir hayran sitesidir ve HoYoverse, Garena, Roblox Corporation, Krafton veya herhangi bir oyun yayincisi ile bagli, onaylanmis veya herhangi bir sekilde iliskili degildir. Tum oyun adlari, logolari ve ticari markalar ilgili sahiplerinin mulkiyetindedir. Kodlar kamuya acik bilgilerden elde edilmistir ve onceden haber verilmeksizin sona erebilir.",
+    "copyright": "© {year} GameCodeHub. Tum haklari saklidir."
+  }
+}

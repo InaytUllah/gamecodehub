@@ -1,0 +1,123 @@
+{
+  "common": {
+    "siteName": "GameCodeHub",
+    "tagline": "Ma Game Hang Ngay, Trang Thai May Chu & Nhieu Hon",
+    "home": "Trang Chu",
+    "allGames": "Tat Ca Game",
+    "codes": "Ma Doi Thuong",
+    "serverStatus": "Trang Thai May Chu",
+    "banners": "Banner Hien Tai",
+    "blog": "Huong Dan",
+    "about": "Gioi Thieu",
+    "contact": "Lien He",
+    "privacy": "Chinh Sach Bao Mat",
+    "searchPlaceholder": "Tim ma...",
+    "lastUpdated": "Cap nhat lan cuoi",
+    "copyCode": "Sao Chep Ma",
+    "copied": "Da Sao Chep!",
+    "active": "Hoat Dong",
+    "expired": "Het Han",
+    "verified": "Da Xac Minh",
+    "newCode": "MOI",
+    "expiresIn": "Het han trong",
+    "noActiveCodes": "Khong co ma hoat dong nao luc nay. Quay lai sau nhe!",
+    "showExpired": "Hien Ma Het Han",
+    "hideExpired": "An Ma Het Han",
+    "viewAll": "Xem Tat Ca",
+    "learnMore": "Tim Hieu Them",
+    "backToHome": "Quay Ve Trang Chu",
+    "loading": "Dang tai...",
+    "error": "Da xay ra loi",
+    "retry": "Thu Lai"
+  },
+  "home": {
+    "heroTitle": "Khong Bao Gio Bo Lo Ma Game",
+    "heroSubtitle": "Nhan ma doi thuong moi nhat cho game yeu thich cua ban. Cap nhat moi gio.",
+    "latestCodes": "Ma Moi Nhat",
+    "activeCodesCount": "{count} ma dang hoat dong",
+    "gamesWeTrack": "Game Chung Toi Theo Doi"
+  },
+  "game": {
+    "activeCodes": "Ma Hoat Dong",
+    "expiredCodes": "Ma Het Han",
+    "howToRedeem": "Cach Doi Thuong",
+    "redeemOnOfficialSite": "Doi Thuong Tren Trang Chinh Thuc",
+    "faq": "Cau Hoi Thuong Gap",
+    "serverOnline": "May chu dang hoat dong",
+    "relatedGames": "Game Khac",
+    "codesFor": "Ma cho {game}",
+    "allCodes": "Tat Ca Ma {game}",
+    "noExpiredCodes": "Chua co ma het han nao duoc ghi nhan."
+  },
+  "codes": {
+    "pageTitle": "Ma Doi Thuong {game} ({month} {year})",
+    "pageSubtitle": "Tat ca ma doi thuong {game} dang hoat dong. Sao chep va nhan phan thuong mien phi.",
+    "rewards": "Phan Thuong",
+    "source": "Nguon",
+    "added": "Da Them",
+    "region": "Khu Vuc",
+    "global": "Toan Cau",
+    "copyAndRedeem": "Sao Chep & Doi Thuong",
+    "codeExpired": "Ma nay da het han",
+    "hoursAgo": "{hours}g truoc",
+    "daysAgo": "{days}n truoc",
+    "justNow": "Vua xong"
+  },
+  "status": {
+    "online": "Truc Tuyen",
+    "maintenance": "Bao Tri",
+    "issues": "Phat Hien Su Co",
+    "offline": "Ngoai Tuyen",
+    "scheduledMaintenance": "Bao Tri Theo Lich",
+    "maintenanceEnds": "Du kien ket thuc",
+    "pageTitle": "Trang Thai May Chu {game}",
+    "pageSubtitle": "Kiem tra xem may chu {game} co dang truc tuyen khong.",
+    "currentStatus": "Trang Thai Hien Tai",
+    "statusHistory": "Lich Su Trang Thai (7 Ngay Qua)",
+    "noIssues": "Khong co su co nao duoc bao cao trong 7 ngay qua."
+  },
+  "banners": {
+    "pageTitle": "Banner {game} Hien Tai",
+    "pageSubtitle": "Xem nhung gi co san trong dot xoay vong hien tai.",
+    "endsIn": "Ket thuc trong",
+    "featuredItems": "Vat Pham Noi Bat",
+    "noBanners": "Khong co banner hoat dong nao luc nay."
+  },
+  "newsletter": {
+    "title": "Nhan Ma Hang Ngay Qua Email",
+    "subtitle": "Khong bo lo bat ky ma nao. Chung toi se gui ma moi ngay khi co.",
+    "placeholder": "email@cuaban.com",
+    "subscribe": "Dang Ky",
+    "success": "Ban da dang ky! Kiem tra email de xac nhan.",
+    "selectGames": "Chon game cua ban"
+  },
+  "seo": {
+    "homeTitle": "GameCodeHub - Ma Doi Thuong Hang Ngay cho Genshin Impact, Free Fire, Roblox & Nhieu Hon",
+    "homeDescription": "Nhan ma doi thuong moi nhat cho Genshin Impact, Free Fire, Roblox, PUBG Mobile & nhieu hon. Cap nhat hang ngay.",
+    "codesTitle": "Ma Doi Thuong {game} ({month} {year}) - Tat Ca Ma Hoat Dong",
+    "codesDescription": "Tat ca ma doi thuong {game} dang hoat dong cho {month} {year}. Sao chep va nhan phan thuong mien phi.",
+    "statusTitle": "Trang Thai May Chu {game} - {game} Co Bi Sap Khong?",
+    "statusDescription": "Kiem tra xem may chu {game} co dang truc tuyen. Trang thai truc tiep va lich su bao tri.",
+    "bannersTitle": "Banner & Su Kien {game} Hien Tai",
+    "bannersDescription": "Xem banner, su kien va dot xoay vong cua hang {game} hien tai."
+  },
+  "admin": {
+    "dashboard": "Bang Dieu Khien",
+    "manageCodes": "Quan Ly Ma",
+    "manageGames": "Quan Ly Game",
+    "settings": "Cai Dat",
+    "addCode": "Them Ma",
+    "editCode": "Sua Ma",
+    "deleteCode": "Xoa Ma",
+    "save": "Luu",
+    "cancel": "Huy",
+    "login": "Dang Nhap",
+    "logout": "Dang Xuat",
+    "password": "Mat Khau",
+    "loginError": "Mat khau khong dung"
+  },
+  "footer": {
+    "disclaimer": "GameCodeHub la trang web nguoi ham mo doc lap va khong lien ket, khong duoc chung thuc hoac lien quan den HoYoverse, Garena, Roblox Corporation, Krafton hoac bat ky nha phat hanh game nao. Tat ca ten game, logo va nhan hieu la tai san cua chu so huu tuong ung. Ma duoc lay tu thong tin cong khai va co the het han ma khong bao truoc.",
+    "copyright": "© {year} GameCodeHub. Moi quyen duoc bao luu."
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "common": {
+    "siteName": "GameCodeHub",
+    "tagline": "Kode Game Harian, Status Server & Lainnya",
+    "home": "Beranda",
+    "allGames": "Semua Game",
+    "codes": "Kode Redeem",
+    "serverStatus": "Status Server",
+    "banners": "Banner Saat Ini",
+    "blog": "Panduan",
+    "about": "Tentang",
+    "contact": "Kontak",
+    "privacy": "Kebijakan Privasi",
+    "searchPlaceholder": "Cari kode...",
+    "lastUpdated": "Terakhir diperbarui",
+    "copyCode": "Salin Kode",
+    "copied": "Disalin!",
+    "active": "Aktif",
+    "expired": "Kedaluwarsa",
+    "verified": "Terverifikasi",
+    "newCode": "BARU",
+    "expiresIn": "Berakhir dalam",
+    "noActiveCodes": "Tidak ada kode aktif saat ini. Cek kembali nanti!",
+    "showExpired": "Tampilkan Kode Kedaluwarsa",
+    "hideExpired": "Sembunyikan Kode Kedaluwarsa",
+    "viewAll": "Lihat Semua",
+    "learnMore": "Selengkapnya",
+    "backToHome": "Kembali ke Beranda",
+    "loading": "Memuat...",
+    "error": "Terjadi kesalahan",
+    "retry": "Coba Lagi"
+  },
+  "home": {
+    "heroTitle": "Jangan Lewatkan Kode Game Lagi",
+    "heroSubtitle": "Dapatkan kode redeem terbaru untuk game favoritmu. Diperbarui setiap jam.",
+    "latestCodes": "Kode Terbaru",
+    "activeCodesCount": "{count} kode aktif",
+    "gamesWeTrack": "Game yang Kami Pantau"
+  },
+  "game": {
+    "activeCodes": "Kode Aktif",
+    "expiredCodes": "Kode Kedaluwarsa",
+    "howToRedeem": "Cara Redeem",
+    "redeemOnOfficialSite": "Redeem di Situs Resmi",
+    "faq": "Pertanyaan yang Sering Diajukan",
+    "serverOnline": "Server sedang online",
+    "relatedGames": "Game Lainnya",
+    "codesFor": "Kode untuk {game}",
+    "allCodes": "Semua Kode {game}",
+    "noExpiredCodes": "Belum ada kode kedaluwarsa yang tercatat."
+  },
+  "codes": {
+    "pageTitle": "Kode Redeem {game} ({month} {year})",
+    "pageSubtitle": "Semua kode redeem {game} yang berfungsi. Salin dan klaim hadiah gratis.",
+    "rewards": "Hadiah",
+    "source": "Sumber",
+    "added": "Ditambahkan",
+    "region": "Wilayah",
+    "global": "Global",
+    "copyAndRedeem": "Salin & Redeem",
+    "codeExpired": "Kode ini sudah kedaluwarsa",
+    "hoursAgo": "{hours}j lalu",
+    "daysAgo": "{days}h lalu",
+    "justNow": "Baru saja"
+  },
+  "status": {
+    "online": "Online",
+    "maintenance": "Pemeliharaan",
+    "issues": "Masalah Terdeteksi",
+    "offline": "Offline",
+    "scheduledMaintenance": "Pemeliharaan Terjadwal",
+    "maintenanceEnds": "Diperkirakan selesai",
+    "pageTitle": "Status Server {game}",
+    "pageSubtitle": "Periksa apakah server {game} sedang online sekarang.",
+    "currentStatus": "Status Saat Ini",
+    "statusHistory": "Riwayat Status (7 Hari Terakhir)",
+    "noIssues": "Tidak ada masalah yang dilaporkan dalam 7 hari terakhir."
+  },
+  "banners": {
+    "pageTitle": "Banner {game} Saat Ini",
+    "pageSubtitle": "Lihat apa yang tersedia di rotasi saat ini.",
+    "endsIn": "Berakhir dalam",
+    "featuredItems": "Item Unggulan",
+    "noBanners": "Tidak ada banner aktif saat ini."
+  },
+  "newsletter": {
+    "title": "Dapatkan Kode Harian di Email Kamu",
+    "subtitle": "Jangan lewatkan kode apapun. Kami akan kirimkan kode baru begitu tersedia.",
+    "placeholder": "email@kamu.com",
+    "subscribe": "Berlangganan",
+    "success": "Kamu sudah terdaftar! Cek email untuk konfirmasi.",
+    "selectGames": "Pilih game kamu"
+  },
+  "seo": {
+    "homeTitle": "GameCodeHub - Kode Redeem Harian untuk Genshin Impact, Free Fire, Roblox & Lainnya",
+    "homeDescription": "Dapatkan kode redeem terbaru untuk Genshin Impact, Free Fire, Roblox, PUBG Mobile & lainnya. Diperbarui setiap hari.",
+    "codesTitle": "Kode Redeem {game} ({month} {year}) - Semua Kode Aktif",
+    "codesDescription": "Semua kode redeem {game} yang berfungsi untuk {month} {year}. Salin dan klaim hadiah gratis.",
+    "statusTitle": "Status Server {game} - Apakah {game} Down?",
+    "statusDescription": "Periksa apakah server {game} sedang online. Status langsung dan riwayat pemeliharaan.",
+    "bannersTitle": "Banner & Event {game} Saat Ini",
+    "bannersDescription": "Lihat banner, event, dan rotasi toko {game} saat ini."
+  },
+  "admin": {
+    "dashboard": "Dasbor",
+    "manageCodes": "Kelola Kode",
+    "manageGames": "Kelola Game",
+    "settings": "Pengaturan",
+    "addCode": "Tambah Kode",
+    "editCode": "Edit Kode",
+    "deleteCode": "Hapus Kode",
+    "save": "Simpan",
+    "cancel": "Batal",
+    "login": "Masuk",
+    "logout": "Keluar",
+    "password": "Kata Sandi",
+    "loginError": "Kata sandi salah"
+  },
+  "footer": {
+    "disclaimer": "GameCodeHub adalah situs penggemar independen dan tidak berafiliasi, didukung, atau terkait dengan HoYoverse, Garena, Roblox Corporation, Krafton, atau penerbit game manapun. Semua nama game, logo, dan merek dagang adalah milik pemiliknya masing-masing. Kode bersumber dari informasi yang tersedia secara publik dan dapat kedaluwarsa tanpa pemberitahuan.",
+    "copyright": "© {year} GameCodeHub. Hak cipta dilindungi."
+  }
+}
