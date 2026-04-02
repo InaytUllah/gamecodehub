@@ -11,9 +11,7 @@ import { createClient } from "@/lib/supabase/server";
 import { Link } from "@/i18n/navigation";
 import type { Code, ServerStatus } from "@/types/database";
 
-export function generateStaticParams() {
-  return GAMES.map((game) => ({ game: game.slug }));
-}
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; game: string }> }) {
   const { locale, game } = await params;

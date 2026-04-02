@@ -12,9 +12,7 @@ import { createClient } from "@/lib/supabase/server";
 import { getCurrentMonthYear } from "@/lib/utils/date";
 import type { Code } from "@/types/database";
 
-export function generateStaticParams() {
-  return GAMES.map((game) => ({ game: game.slug }));
-}
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; game: string }> }) {
   const { locale, game } = await params;

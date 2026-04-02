@@ -8,9 +8,7 @@ import { GAMES, getGameBySlug } from "@/lib/constants";
 import { createClient } from "@/lib/supabase/server";
 import type { Banner } from "@/types/database";
 
-export function generateStaticParams() {
-  return GAMES.map((game) => ({ game: game.slug }));
-}
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; game: string }> }) {
   const { locale, game } = await params;
