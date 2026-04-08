@@ -1,5 +1,6 @@
 import { BaseScraper, type ScrapedCode } from "./base";
 import { HOYO_CODES_API } from "@/lib/constants";
+import { formatRewards } from "@/lib/utils/rewards";
 
 interface HoyoCode {
   code: string;
@@ -27,7 +28,7 @@ export class HonkaiScraper extends BaseScraper {
         .filter((item) => item.status === "OK")
         .map((item) => ({
           code: item.code,
-          rewards: item.rewards || "Honkai: Star Rail Rewards",
+          rewards: formatRewards(item.rewards) || "Honkai: Star Rail Rewards",
           source: "hoyo_codes_api",
           source_url: `${HOYO_CODES_API}/codes?game=hkrpg`,
           region: "global",

@@ -4,6 +4,7 @@ import { Countdown } from "../ui/Countdown";
 import { VerificationBadge } from "./VerificationBadge";
 import { CommunityReport } from "./CommunityReport";
 import { formatRelativeTime } from "@/lib/utils/date";
+import { formatRewards } from "@/lib/utils/rewards";
 import type { Code } from "@/types/database";
 
 interface CodeCardProps {
@@ -40,7 +41,7 @@ export function CodeCard({ code, gameSlug }: CodeCardProps) {
 
       {code.rewards && (
         <p className="mt-3 text-sm text-gray-600 dark:text-gray-300">
-          <span className="mr-1">🎁</span> {code.rewards}
+          <span className="mr-1">🎁</span> {formatRewards(code.rewards)}
         </p>
       )}
 
