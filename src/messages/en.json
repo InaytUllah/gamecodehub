@@ -1,7 +1,7 @@
 {
   "common": {
     "siteName": "GameCodeHub",
-    "tagline": "Daily Game Codes, Server Status & More",
+    "tagline": "Game codes, server status, banner rotations",
     "home": "Home",
     "allGames": "All Games",
     "codes": "Redeem Codes",
@@ -20,7 +20,7 @@
     "verified": "Verified",
     "newCode": "NEW",
     "expiresIn": "Expires in",
-    "noActiveCodes": "No active codes right now. Check back soon!",
+    "noActiveCodes": "No active codes right now. We check every 2 hours.",
     "showExpired": "Show Expired Codes",
     "hideExpired": "Hide Expired Codes",
     "viewAll": "View All",
@@ -31,11 +31,11 @@
     "retry": "Try Again"
   },
   "home": {
-    "heroTitle": "Never Miss a Game Code Again",
-    "heroSubtitle": "Get the latest working redeem codes for your favorite games. Updated every hour.",
+    "heroTitle": "Free Game Codes, Updated Hourly",
+    "heroSubtitle": "Working redeem codes for Genshin, Free Fire, Roblox, PUBG and Honkai. We check every 2 hours so you don't have to.",
     "latestCodes": "Latest Codes",
     "activeCodesCount": "{count} active codes",
-    "gamesWeTrack": "Games We Track"
+    "gamesWeTrack": "Games we track"
   },
   "game": {
     "activeCodes": "Active Codes",
@@ -51,7 +51,7 @@
   },
   "codes": {
     "pageTitle": "{game} Redeem Codes ({month} {year})",
-    "pageSubtitle": "All working {game} redeem codes. Copy codes instantly and claim free rewards.",
+    "pageSubtitle": "Working {game} codes below. Copy any code and paste it on the official redemption site.",
     "rewards": "Rewards",
     "source": "Source",
     "added": "Added",
@@ -84,20 +84,20 @@
     "noBanners": "No active banners right now."
   },
   "newsletter": {
-    "title": "Get Daily Codes in Your Inbox",
-    "subtitle": "Never miss a code. We'll send you new codes as they drop.",
+    "title": "Daily codes by email",
+    "subtitle": "We'll email you when new codes drop. No spam, just codes.",
     "placeholder": "your@email.com",
     "subscribe": "Subscribe",
-    "success": "You're in! Check your email to confirm.",
+    "success": "Done. Check your email to confirm.",
     "selectGames": "Select your games"
   },
   "seo": {
-    "homeTitle": "GameCodeHub - Daily Redeem Codes for Genshin Impact, Free Fire, Roblox & More",
-    "homeDescription": "Get the latest working redeem codes for Genshin Impact, Free Fire, Roblox, PUBG Mobile & more. Updated daily. Copy & redeem instantly.",
-    "codesTitle": "{game} Redeem Codes ({month} {year}) - All Active Codes",
-    "codesDescription": "All working {game} redeem codes for {month} {year}. Copy codes instantly and claim free rewards. Updated every hour.",
+    "homeTitle": "GameCodeHub - Redeem Codes for Genshin Impact, Free Fire, Roblox, PUBG & Honkai",
+    "homeDescription": "Working redeem codes for Genshin Impact, Free Fire, Roblox, PUBG Mobile and Honkai Star Rail. Checked every 2 hours. Copy and redeem.",
+    "codesTitle": "{game} Redeem Codes ({month} {year}) - Working Codes",
+    "codesDescription": "Working {game} redeem codes for {month} {year}. Verified and updated every 2 hours. Copy and paste on the official site.",
     "statusTitle": "{game} Server Status - Is {game} Down?",
-    "statusDescription": "Check if {game} servers are online right now. Live server status, maintenance schedule, and downtime history.",
+    "statusDescription": "Current {game} server status. See if servers are up, check maintenance times, and view recent downtime.",
     "bannersTitle": "{game} Current Banners & Events",
     "bannersDescription": "See the current banners, events, and shop rotation for {game}. Find out what's available now."
   },
@@ -127,7 +127,7 @@
     "likelyExpired": "Likely Expired",
     "nextCheckIn": "Next check in: {time}",
     "allCodesVerified": "All codes last verified: {time} ago",
-    "poweredBy": "Powered by real-time verification",
+    "poweredBy": "Auto-verified every 30 min",
     "checkedVia": "Checked via: {method}",
     "didThisWork": "Did this code work?",
     "yes": "Yes",

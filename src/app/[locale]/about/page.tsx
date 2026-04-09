@@ -6,7 +6,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   return generatePageMetadata({
     title: "About GameCodeHub",
-    description: "Learn about GameCodeHub - your daily source for game redeem codes, server status, and more.",
+    description: "What GameCodeHub does, how the scrapers work, and which games we cover.",
     locale,
     path: "/about",
   });
@@ -23,26 +23,27 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
         <h1 className="text-3xl font-bold text-gray-900 dark:text-white">About GameCodeHub</h1>
         <div className="mt-6 space-y-4 text-gray-600 dark:text-gray-300">
           <p>
-            GameCodeHub is your one-stop destination for the latest game redeem codes, server status updates,
-            and banner rotations for the most popular mobile and cross-platform games.
+            GameCodeHub collects redeem codes for mobile games and checks if they still work.
+            Scrapers run every 2 hours. The verification system re-checks active codes every 30 minutes.
           </p>
           <p>
-            We automatically check for new codes every 2 hours and verify them to make sure they work.
-            Our goal is simple: help you never miss a free reward.
+            If a code stops working, the site flags it automatically. You can also report broken codes
+            yourself using the thumbs up/down buttons on each code.
           </p>
-          <h2 className="text-xl font-bold text-gray-900 dark:text-white pt-4">Games We Cover</h2>
+          <h2 className="text-xl font-bold text-gray-900 dark:text-white pt-4">Games we cover</h2>
           <ul className="list-disc pl-6 space-y-1">
-            <li>Genshin Impact</li>
-            <li>Free Fire / Free Fire MAX</li>
-            <li>Roblox</li>
-            <li>PUBG Mobile</li>
-            <li>Honkai: Star Rail</li>
+            <li>Genshin Impact (codes from HoYoverse API, verified)</li>
+            <li>Honkai: Star Rail (codes from HoYoverse API, verified)</li>
+            <li>Roblox (promo codes from ProGameGuides)</li>
+            <li>Free Fire (codes from Game8 and ProGameGuides)</li>
+            <li>PUBG Mobile (codes from Game8 and PocketTactics)</li>
           </ul>
-          <h2 className="text-xl font-bold text-gray-900 dark:text-white pt-4">How It Works</h2>
+          <h2 className="text-xl font-bold text-gray-900 dark:text-white pt-4">How it works</h2>
           <p>
-            Our automated systems scan official sources, social media, and community channels for new
-            redeem codes. Each code is verified before being listed on our site. You can copy any code
-            with one click and use the direct link to the official redemption page.
+            Scrapers pull codes from game APIs and gaming news sites. For Genshin and Honkai,
+            we use the hoyo-codes API which is reliable. For other games, we scrape multiple sites
+            and cross reference to filter out junk. Codes you see here have been checked against
+            at least one source within the last few hours.
           </p>
         </div>
       </div>
